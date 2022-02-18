@@ -1,0 +1,161 @@
+{
+  "container-line": [
+    {
+      "id": 1,
+      "to": "/",
+      "icon": "map-marker-alt",
+      "textBefore": "Our Address",
+      "textAfter": "Drive Chicago, IL 60607"
+    },
+
+    {
+      "id": 2,
+      "to": "/",
+      "icon": "phone-alt",
+      "textBefore": "Call Us",
+      "textAfter": "360-779-2228"
+    },
+    {
+      "id": 3,
+      "to": "/",
+      "icon": "envelope",
+      "textBefore": "Our Mail",
+      "textAfter": "yourname@mail.com"
+    }
+  ],
+  "section-block": [
+    {
+      "id": 1,
+      "icon": "stethoscope",
+      "title": "Therapy",
+      "titleLink": "/",
+      "mainText": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit.",
+      "poUpText": "Read More",
+      "poUpTextLink": "/",
+      "iconArrowRight": "arrow-right"
+    },
+    {
+      "id": 2,
+      "icon": "user-nurse",
+      "title": "Dentistry",
+      "titleLink": "/",
+      "mainText": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit.",
+      "poUpText": "Read More",
+      "poUpTextLink": "/",
+      "iconArrowRight": "arrow-right"
+    },
+    {
+      "id": 3,
+      "icon": "heartbeat",
+      "title": "Virusology",
+      "titleLink": "/",
+      "mainText": "Lorem ipsum dolor sit amet consectetur adipisicing elit,  sed do eiusmod Lorem ipsum dolor sit.",
+      "poUpText": "Read More",
+      "poUpTextLink": "/",
+      "iconArrowRight": "arrow-right"
+    },
+    {
+      "id": 4,
+      "icon": "notes-medical",
+      "title": "Pharmacology",
+      "titleLink": "/",
+      "mainText": "Lorem ipsum dolor sit amet consectetur adipisicing elit,  sed do eiusmod Lorem ipsum dolor sit.",
+      "poUpText": "Read More",
+      "poUpTextLink": "/",
+      "iconArrowRight": "arrow-right"
+    }
+
+  ],
+  "pictures-line": [
+    {
+      "id": 1,
+      "images": "./assets/images/slide-img-6.jpg"
+    },
+    {
+      "id": 2,
+      "images": "./assets/images/slide-img-1.jpg"
+    },
+    {
+      "id": 3,
+      "images": "./assets/images/slide-img-2.jpg"
+    },
+    {
+      "id": 4,
+      "images": "./assets/images/slide-img-3.jpg"
+    },
+    {
+      "id": 5,
+      "images": "./assets/images/slide-img-4.jpg"
+    }
+  ],
+  "feedback-loop": [
+    {
+      "id": 1,
+      "icon": "hospital-alt",
+      "title": "Our Address",
+      "slogan": "PSD  Building,  2 Tower St, United States."
+    },
+    {
+      "id": 2,
+      "icon": "phone-alt",
+      "title": "Our Phone",
+      "slogan": "Telephone: 00291291023 Mobile: 000 2324 39493"
+    },
+    {
+      "id": 3,
+      "icon": "envelope",
+      "title": "Our Email",
+      "slogan": "Email: doc@email.com Inquiries: info@orex.com"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "photo": "./assets/images/doctor1.jpg",
+      "name": "Matthew Reyes",
+      "assessmentQuality": 5,
+      "vocation": "Obstetrics & Gynaecology",
+      "location": "Hong Kong "
+    },
+    {
+      "id": 2,
+      "photo": "./assets/images/doctor2.jpg",
+      "name": "Rebecca Gilbert",
+      "assessmentQuality": 5,
+      "vocation": "Obstetrics & Gynaecology",
+      "location": "Hong Kong "
+    },
+    {
+      "id": 3,
+      "photo": "./assets/images/doctor3.jpg",
+      "name": "Bobby Stanley",
+      "assessmentQuality": 4,
+      "vocation": "Obstetrics & Gynaecology",
+      "location": "Hong Kong "
+    },
+    {
+      "id": 4,
+      "photo": "./assets/images/doctor4.jpg",
+      "name": "Kathryn Cooper",
+      "assessmentQuality": 5,
+      "vocation": "Obstetrics & Gynaecology",
+      "location": "Hong Kong "
+    },
+    {
+      "id": 5,
+      "photo": "./assets/images/doctor5.jpg",
+      "name": "Carmen Nelson",
+      "assessmentQuality": 5,
+      "vocation": "Obstetrics & Gynaecology",
+      "location": "Hong Kong "
+    },
+    {
+      "id": 6,
+      "photo": "./assets/images/doctor6.jpg",
+      "name": "Janice Hughes",
+      "assessmentQuality": 4,
+      "vocation": "Obstetrics & Gynaecology",
+      "location": "Hong Kong "
+    }
+  ]
+}

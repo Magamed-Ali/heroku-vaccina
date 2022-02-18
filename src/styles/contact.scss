@@ -1,0 +1,56 @@
+
+
+.page-title-contact {
+  padding-top: 240px;
+  padding-bottom: 180px;
+  background: url("../../public/assets/images/subheader-bg.png") no-repeat;
+  background-position: center top;
+  background-size: cover;
+  margin-top: -126px;
+  z-index: 1;
+}
+
+.title-wrapper {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+
+
+  h1 {
+    color: $footer-h6;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+
+}
+
+.bread-crumbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .separate {
+    margin: 0 8px;
+  }
+
+  &__link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 16px;
+    color: $footer-logo-color;
+    font-weight: 600;
+    transition: 0.3s;
+
+    &:hover {
+      color: $footer-h6;
+    }
+  }
+}
+
+.active {
+  color: $text-color-section;
+
+  &:hover {
+    color: $text-color-section;
+  }
+}

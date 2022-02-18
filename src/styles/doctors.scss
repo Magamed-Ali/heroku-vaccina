@@ -1,0 +1,110 @@
+
+.section-page-doctors{
+  padding: 100px 0 70px;
+}
+
+.doctor {
+  padding: 12px;
+  background: #fff;
+
+
+}
+
+.doctor__wrapper {
+  font-family: "Rubik";
+  border: 1px solid #ebf2f3;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: .3s;
+
+  &-image {
+    padding: 0;
+    border-radius: 5px;
+
+    img {
+      width: 100%;
+      transition: .3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &-detail {
+    width: 100%;
+    padding: 30px;
+    background: #ffffff;
+    transition: .3s;
+
+    h5 {
+
+      a {
+        color: $footer-h6;
+        transition: 0.3s;
+
+        &:hover {
+          color: $h5-hover;
+        }
+      }
+    }
+
+    .complete {
+      font-size: 24px;
+      color: gold;
+      padding: 10px 0;
+    }
+
+    .blank {
+      font-size: 24px;
+      color: gold;
+      padding: 10px 0;
+    }
+
+    p, p a {
+      color: $footer-color-text;
+      text-transform: capitalize;
+    }
+
+    .profession {
+      margin: 5px 0 0 0;
+
+      a {
+        transition: .3s;
+        color: $text-color-section;
+
+        &:hover {
+          color: $footer-logo-color;
+        }
+      }
+    }
+
+    .icon {
+      margin: 10px 0 0 0;
+    }
+
+    button {
+      width: 100%;
+      transition: .3s;
+      margin-bottom: -100px;
+      opacity: 0;
+
+    }
+  }
+
+  &:hover {
+
+    .doctor__wrapper-detail {
+
+      transform: translateY(-70px);
+
+      button {
+        opacity: 1;
+
+      }
+
+
+    }
+  }
+}
+

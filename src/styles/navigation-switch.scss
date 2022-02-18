@@ -1,0 +1,93 @@
+// страница Home true
+.nav-bar-wrapper-home {
+  background-color: rgba(0, 89, 99, 0.7);
+
+  .nav-bar {
+
+    &__find {
+
+      &-search {
+        color: #ffffff;
+
+        &:hover {
+          background-color: #005963;
+        }
+      }
+    }
+  }
+
+  .menu-burger .menu ul li a {
+    color: white;
+
+    &:hover {
+      color: #00acb1;
+    }
+  }
+}
+
+.nav-bar-wrapper-contact {
+  background-color: rgb(255, 255, 255);
+
+  .nav-bar {
+
+    &__find {
+
+      &-search {
+        color: $background;
+
+        &:hover {
+          background-color: #ebf2f3;
+        }
+      }
+    }
+  }
+
+  .menu-burger .menu ul li a {
+    color: $background;
+
+    &:hover {
+      color: $footer-logo-color;
+    }
+  }
+}
+
+.top-bar-wrapper-home {
+  background: $background;
+
+  .top-bar {
+    color: $white;
+
+    &__social-links a {
+      transition: .3s;
+
+      &:hover {
+        color: $footer-logo-color;
+      }
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+.top-bar-wrapper-contact {
+  background: rgba(255, 255, 255, 0);
+
+  .top-bar {
+    color: $background;
+
+    &__social-links a {
+      transition: .3s;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  a {
+    color: $background
+  }
+
+}

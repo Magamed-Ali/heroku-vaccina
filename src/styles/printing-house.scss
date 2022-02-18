@@ -1,0 +1,23 @@
+@media (min-width: 420px) {
+  h1 {
+    font-size: calc(3.125vw + 22px);
+  }
+}
+
+@media (min-width: 1250px) {
+  h1 {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 320px) {
+  h6 {
+    font-size: calc(0.8vw + 10px);
+  }
+}
+
+@media (min-width: 1250px) {
+  h6 {
+    font-size: 20px;
+  }
+}
